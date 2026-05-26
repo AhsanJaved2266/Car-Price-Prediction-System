@@ -68,6 +68,15 @@ df['Kilometer'] = df['Kilometer'].fillna(
 
 )
 
+# Fill missing Year
+df['Year'] = df['Year'].fillna(
+
+    df['Year'].median()
+
+)
+
+# Remove remaining missing rows
+df = df.dropna()
 # -----------------------------
 # FEATURES & TARGET
 # -----------------------------

@@ -16,7 +16,7 @@ A Machine Learning web application that predicts the price of a car based on use
 
 ## 🌐 Live Demo
 
-👉 [Click here to open the app]([https://your-app-link.streamlit.app](https://car-price-prediction-system-kfef4eykzswqwwxyggftrk.streamlit.app/))
+👉 [Click here to open the app][https://your-app-link.streamlit.app](https://car-price-prediction-system-kfef4eykzswqwwxyggftrk.streamlit.app/
 
 ---
 

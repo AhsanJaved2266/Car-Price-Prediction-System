@@ -20,8 +20,19 @@ df = pd.read_csv("car details v4.csv")
 
 df = df.dropna()
 
-df['Engine'] = df['Engine'].str.replace(' CC', '')
-df['Engine'] = df['Engine'].astype(float)
+df['Engine'] = df['Engine'].astype(str)
+
+df['Engine'] = df['Engine'].str.replace(' CC', '', regex=False)
+
+df['Engine'] = pd.to_numeric(
+
+    df['Engine'],
+
+    errors='coerce'
+
+)
+
+df = df.dropna()
 
 # -----------------------------
 # FEATURES & TARGET

@@ -94,7 +94,7 @@ df = load_data()
 # =========================================================
 # UI
 # =========================================================
-st.title("🚗 Car Price Prediction System")
+st.title("Car Price Prediction System")
 st.markdown("Enter the car details below to get an estimated price.")
 st.markdown("---")
  
@@ -117,7 +117,7 @@ st.markdown("---")
 # =========================================================
 # PREDICTION
 # =========================================================
-if st.button("🔍 Predict Price", use_container_width=True):
+if st.button("Predict Price", use_container_width=True):
     try:
         make_enc  = make_encoder.transform([make])[0]
         model_enc = model_encoder.transform([car_model])[0]

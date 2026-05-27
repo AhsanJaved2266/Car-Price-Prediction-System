@@ -94,7 +94,7 @@ df = load_data()
 # =========================================================
 # UI
 # =========================================================
-st.title("🚗 Car Price Prediction System")
+st.title("Car Price Prediction System")
 st.markdown("Enter the car details below to get an estimated price.")
 st.markdown("---")
  
